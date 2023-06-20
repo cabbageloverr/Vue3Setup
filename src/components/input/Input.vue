@@ -1,13 +1,11 @@
 <script lang="ts" setup>
-// const props = defineProps(['modelValue'])
 const props = defineProps<{
-  modelValue: string
-  // bar?: number
-}>()
+  modelValue: string;
+}>();
 
 const emit = defineEmits<{
-  (e: 'update:modelValue', value: string): void
-}>()
+  (e: "update:modelValue", value: string): void;
+}>();
 </script>
 
 <template>

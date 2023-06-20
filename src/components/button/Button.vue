@@ -1,10 +1,7 @@
-<script setup lang="ts">
-
-
-</script>
+<script setup lang="ts"></script>
 <template>
   <button class="bt_blue">
-    <slot/>
+    <slot />
   </button>
 </template>
 
@@ -14,16 +11,15 @@
   padding: 3px 12px;
   width: 110px;
   color: white;
-  border: transparent ;
-  background: #5119F0 !important;
+  border: transparent;
+  background: #5119f0 !important;
   border-radius: 4px !important;
   transition-duration: 0.4s;
 }
 
-
 .bt_blue:hover {
-  background-color: #ffffff !important; 
-  color: #5119F0 !important;
-  border:solid #5119F0 !important;
+  background-color: #ffffff !important;
+  color: #5119f0 !important;
+  border: solid #5119f0 !important;
 }
 </style>
